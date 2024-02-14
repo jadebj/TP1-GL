@@ -27,8 +27,8 @@ public class System_hospitalier {
 
     public void recevoirRequete(Requête requete) {
         listRequetes.add(requete);
-        String analyse =  analyserRequete(requete);
-        String comparaisonDonnees = comparerDonnes();
+        String analyse =  analyserRequete(requete); //ceci est une fonction qui analyse la requete
+        String comparaisonDonnees = comparerDonnes(); //ceci est une fonction qui compare les données
         System.out.println(analyse);
         System.out.println(comparaisonDonnees);
     }
